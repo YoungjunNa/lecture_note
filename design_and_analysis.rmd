@@ -31,22 +31,22 @@ at Seoul National University
 #### 1.1. Treatment structure
 
 **Types of treatments – Unstructured vs. Structured**  
-- Unstructured (unrelated) treatment: no natural order or relationship is established among the set of treatments (e.g. Beauchemin and McGinn, 2006)  
-- structured (related) treatment: 1) Grouping 2) Gradient structure  
-1)	Grouping (factorial) structure: two or more groups of related treatments (e.g. Hammond et al., 2016; Zhou et al., 2016; Figure 1).  
-2)	Gradient structure: Incremental differences are present (e.g. Campos et al., 2014; Xue et al., 2011)
+- **Unstructured (unrelated)** treatment: no natural order or relationship is established among the set of treatments (e.g. Beauchemin and McGinn, 2006)  
+- **structured (related)** treatment: 1) Grouping 2) Gradient structure  
+1)	**Grouping (factorial) structure**: two or more groups of related treatments (e.g. Hammond et al., 2016; Zhou et al., 2016; Figure 1).  
+2)	**Gradient structure**: Incremental differences are present (e.g. Campos et al., 2014; Xue et al., 2011)
 
 #### 1.2. Experimental design
 
 General design structures – CRD, RCBD, and LSD (Figure 2)  
 
-- Completely Randomized Designs (CRD): the simplest design structure possible because treatments are assigned to experimental units completely at random. Use of this design is appropriate when experimental units are relatively homogeneous (uniform).   ANOVA table for CRD is given in Table 1.  
+- **Completely Randomized Designs (CRD)**: the simplest design structure possible because treatments are assigned to experimental units completely at random. Use of this design is appropriate when experimental units are relatively homogeneous (uniform).   ANOVA table for CRD is given in Table 1.  
 
-- Randomized Completely Block Designs (RCBD): experimental units are arranged in homogeneous groups (block) on the basis of a single source of extraneous variability; that is, there is one restriction on the randomization. The extraneous source of variability may be a management factor such as time or location (e.g. different farms or buildings) or an animal factor such as body weight, parity, DIM, litter, breed, or gender. ANOVA table for RCBD is given in Table 2.  
+- **Randomized Completely Block Designs (RCBD)**: experimental units are arranged in homogeneous groups (block) on the basis of a single source of extraneous variability; that is, there is one restriction on the randomization. The extraneous source of variability may be a management factor such as time or location (e.g. different farms or buildings) or an animal factor such as body weight, parity, DIM, litter, breed, or gender. ANOVA table for RCBD is given in Table 2.  
 
-- Latin Square Designs (LSD): two restrictions on the randomization. This double blocking makes it possible to remove two independent, extraneous sources of variability from the experimental error. Often in animal nutrition experiments, columns refer to individual animals and rows refer to time periods (Figure 3). ANOVA table for LSD is given in Table 3. For making a balanced LSD, please refer to paper of (Kim and Stein, 2009).  
+- **Latin Square Designs (LSD)**: two restrictions on the randomization. This double blocking makes it possible to remove two independent, extraneous sources of variability from the experimental error. Often in animal nutrition experiments, columns refer to individual animals and rows refer to time periods (Figure 3). ANOVA table for LSD is given in Table 3. For making a balanced LSD, please refer to paper of (Kim and Stein, 2009).  
 
-* The principle objective of blocking is to reduce experimental error. By putting experimental units that are as similar as possible together in the same group (block) and by assigning all treatments into each block separately and independently, variation among blocks can be measured and removed from experimental error.  
+The principle objective of blocking is to reduce experimental error. By putting experimental units that are as similar as possible together in the same group (block) and by assigning all treatments into each block separately and independently, variation among blocks can be measured and removed from experimental error.  
 
 ***
 
