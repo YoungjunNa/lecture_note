@@ -1,7 +1,5 @@
 ## Experimental design and analysis of data
 
-***
-
 **Youngjun Na**  
 Department of Animal Science and Technology, Konkuk University  
 Email: ruminoreticulum@gmail.com  
@@ -19,8 +17,6 @@ Email: ruminoreticulum@gmail.com
 
 ### 0. Basic concepts
 
-*** 
-
 - Experimental unit  
 -	Sampling unit  
 -	Variation  
@@ -31,11 +27,7 @@ Email: ruminoreticulum@gmail.com
 
 ### 1. Treatment structure and experimental design
 
-***
-
 #### 1.1. Treatment structure
-
-***
 
 **Types of treatments – Unstructured vs. Structured**  
 - Unstructured (unrelated) treatment: no natural order or relationship is established among the set of treatments (e.g. Beauchemin and McGinn, 2006)  
@@ -46,8 +38,6 @@ Email: ruminoreticulum@gmail.com
 ***
 
 #### 1.2. Experimental design
-
-***
 
 General design structures – CRD, RCBD, and LSD (Figure 2)  
 
@@ -63,8 +53,6 @@ General design structures – CRD, RCBD, and LSD (Figure 2)
 
 ### 2. Analysis of data using SAS ®
 
-***
-
 SAS PROC GLM vs. MIXED
 
 UPPER CASE = SAS CODES; lower case = your dataset
@@ -72,8 +60,6 @@ UPPER CASE = SAS CODES; lower case = your dataset
 ***
 
 #### 2.0. DATASET
-
-***
 
 > DATA dsname;  
 > INPUT  
@@ -88,8 +74,6 @@ UPPER CASE = SAS CODES; lower case = your dataset
 
 #### 2.1. CRD  
 
-***
-
 > PROC MIXED DATA=dsname;  
 > CLASS trt;  
 > MODEL response=trt;  
@@ -99,8 +83,6 @@ UPPER CASE = SAS CODES; lower case = your dataset
 ***
 
 #### 2.2. RCBD
-
-***
 
 > PROC MIXED DATA=dsname METHOD=REML;  
 > CLASS trt block;  
@@ -113,8 +95,6 @@ UPPER CASE = SAS CODES; lower case = your dataset
 
 #### 2.3. LSD
 
-***
-
 > PROC MIXED DATA=dsname METHOD=REML;  
 > CLASS trt animal period;  
 > MODEL response=trt/DDFM=SATTERTH;  
@@ -126,15 +106,11 @@ UPPER CASE = SAS CODES; lower case = your dataset
 
 #### 2.4. Unstructured
 
-***
-
 > LSMEANS trt/PDIFF;  
 
 ***
 
 #### 2.5. Factorial arrangement (grouping structure)  
-
-***
 
 - If experiment is conducted for 2 x 2 factorial arrangement
 
@@ -144,8 +120,6 @@ UPPER CASE = SAS CODES; lower case = your dataset
 
 #### 2.6. Orthogonal polynomial contrast (gradient structure; Figure 4)
 
-***
-
 - If experiment is conducted for 3 equally-spaced level  
 
 > CONTRAST ‘LINEAR’ trt -1 0 1;  
@@ -154,8 +128,6 @@ UPPER CASE = SAS CODES; lower case = your dataset
 ***
 
 #### 2.7. Coefficients estimation for Orthogonal polynomial contrast (equally or unequally-spaced level)
-
-***
 
 > PROC IML;  
 > X={0 20 30 40 100};  
@@ -167,16 +139,12 @@ UPPER CASE = SAS CODES; lower case = your dataset
 
 #### 2.8. Pearson’s correlation coefficient
 
-***
-
 > PROC CORR DATA = dsname;  
 > RUN;  
 
 ***
 
 #### 2.9. Regression
-
-***
 
 > PROC REG DATA = dsname ALL;  
 > MODEL response=trt;  
@@ -186,15 +154,11 @@ UPPER CASE = SAS CODES; lower case = your dataset
 
 #### 2.10. Mixed model regression
 
-***
-
 - Mixed model regression is used for integrating quantitative findings from multiple studies (St-Pierre, 2001).  
 
 ***
 
 #### 2.11. Repeated Measures analysis
-
-***
 
 - Repeated measures analysis is used for examine and compare response trends over time (Littell et al., 1998).  
 - e.g. Sari et al., (2015); Cardozo et al. (2004)  
@@ -203,8 +167,6 @@ UPPER CASE = SAS CODES; lower case = your dataset
 ***
 
 ### REFERENCES
-
-***
 
 1. Beauchemin, K.A., McGinn, S.M., 2006. Methane emissions from beef cattle: Effects of fumaric acid, essential oil, and canola oil. J. Anim. Sci. 84, 1489–1496.  
 2. Campos, A.F., Pereira, O.G., Ribeiro, K.G., Santos, S.A., Valadares Filho, S. de C., 2014. Impact of replacing soybean meal in beef cattle diets with inactive dry yeast, a sugarcane by-product of ethanol distilleries and sugar mills. Anim. Feed Sci. Technol. 190, 38–46. doi:10.1016/j.anifeedsci.2014.01.003
