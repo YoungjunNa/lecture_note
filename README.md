@@ -1,5 +1,5 @@
 # lecture_notes
-***
+
 My lecture notes  
 
 ruminoreticulum@gmail.com  
