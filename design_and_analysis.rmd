@@ -35,8 +35,6 @@ Email: ruminoreticulum@gmail.com
 1)	Grouping (factorial) structure: two or more groups of related treatments (e.g. Hammond et al., 2016; Zhou et al., 2016; Figure 1).  
 2)	Gradient structure: Incremental differences are present (e.g. Campos et al., 2014; Xue et al., 2011)
 
-***
-
 #### 1.2. Experimental design
 
 General design structures – CRD, RCBD, and LSD (Figure 2)  
@@ -56,8 +54,6 @@ General design structures – CRD, RCBD, and LSD (Figure 2)
 SAS PROC GLM vs. MIXED
 
 UPPER CASE = SAS CODES; lower case = your dataset
-
-***
 
 #### 2.0. DATASET
 
