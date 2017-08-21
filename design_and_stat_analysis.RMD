@@ -70,8 +70,6 @@ UPPER CASE = SAS CODES; lower case = your dataset
 > 3 2 3 207   
 > ;  
 
-***
-
 #### 2.1. CRD  
 
 > PROC MIXED DATA=dsname;  
@@ -79,8 +77,6 @@ UPPER CASE = SAS CODES; lower case = your dataset
 > MODEL response=trt;  
 > LSMEANS trt/PDIFF;  
 > RUN;  
-
-***
 
 #### 2.2. RCBD
 
@@ -91,8 +87,6 @@ UPPER CASE = SAS CODES; lower case = your dataset
 > LSMEANS trt/PDIFF;  
 > RUN;  
 
-***
-
 #### 2.3. LSD
 
 > PROC MIXED DATA=dsname METHOD=REML;  
@@ -102,13 +96,9 @@ UPPER CASE = SAS CODES; lower case = your dataset
 > LSMEANS trt/PDIFF;  
 > RUN;  
 
-***
-
 #### 2.4. Unstructured
 
 > LSMEANS trt/PDIFF;  
-
-***
 
 #### 2.5. Factorial arrangement (grouping structure)  
 
@@ -116,16 +106,12 @@ UPPER CASE = SAS CODES; lower case = your dataset
 
 > MODEL response=A B A*B;  
 
-***
-
 #### 2.6. Orthogonal polynomial contrast (gradient structure; Figure 4)
 
 - If experiment is conducted for 3 equally-spaced level  
 
 > CONTRAST ‘LINEAR’ trt -1 0 1;  
 > CONTRAST ‘QUADRATIC’ trt 1 -2 1;  
-
-***
 
 #### 2.7. Coefficients estimation for Orthogonal polynomial contrast (equally or unequally-spaced level)
 
@@ -135,14 +121,10 @@ UPPER CASE = SAS CODES; lower case = your dataset
 > PRINT XP;  
 > RUN;  
 
-***
-
 #### 2.8. Pearson’s correlation coefficient
 
 > PROC CORR DATA = dsname;  
 > RUN;  
-
-***
 
 #### 2.9. Regression
 
@@ -150,19 +132,14 @@ UPPER CASE = SAS CODES; lower case = your dataset
 > MODEL response=trt;  
 > RUN;  
 
-***
-
 #### 2.10. Mixed model regression
 
 - Mixed model regression is used for integrating quantitative findings from multiple studies (St-Pierre, 2001).  
-
-***
 
 #### 2.11. Repeated Measures analysis
 
 - Repeated measures analysis is used for examine and compare response trends over time (Littell et al., 1998).  
 - e.g. Sari et al., (2015); Cardozo et al. (2004)  
-
 
 ***
 
