@@ -12,8 +12,6 @@ Email: ruminoreticulum@gmail.com
 
 ### Index  
 
-*** 
-
 1.	Treatment structure and experimental design
 2.	Analysis of data using SAS ®
 
@@ -63,7 +61,7 @@ General design structures – CRD, RCBD, and LSD (Figure 2)
 
 ***
 
-###2. Analysis of data using SAS ®
+### 2. Analysis of data using SAS ®
 
 ***
 
