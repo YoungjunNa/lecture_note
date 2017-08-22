@@ -1,0 +1,22 @@
+#Coefficients of Orthogonal Polynomials: Equally Spaced Level  
+
+#number of treatment=3
+c1: -1 0 1
+c2: 1 -2 1
+
+#number of treatment=4
+c1: -3 -1 1 3
+c2: 1 -1 -1 1
+c3: -1 3 -3 1
+
+#number of treatment=5
+c1: -2 -1 0 1 2
+c2: 2 -1 -2 -1 2
+c3: -1 2 0 -2 1
+c4: 1 -4 6 -4 1
+
+#number of treatment=6
+c1: -5 -3 -1 1 3 5
+c2: 5 -1 -4 -4 -1 5
+c3: -5 7 4 -4 -7 5
+c4: 1 -3 2 2 -3 1
