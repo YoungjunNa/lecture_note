@@ -1,0 +1,128 @@
+# Feed formulation
+**Youngjun Na**  
+Department of Animal Science and Technology, Konkuk University  
+Email: ruminoreticulum@gmail.com
+Fall 2016  
+***
+## Chapter 1. Basic concepts of feed formulation  
+
+**Feed formulation is a task that meets the animal nutrient requirement with combinations of various feed ingredients.** It is a very important because the balanced nutrition feeding is essential for the maximum animal production. A good knowledge of animal nutrition, feeding, physical and chemical characteristics of feed ingredients is need for a proper feed formulation.  
+  
+Two pieces of essential information are needed:  
+1. Nutrient requirement of animal  
+2. Chemical composition of the available feed ingredients  
+
+### 1. Nutrient requirement of animal  
+- The first step is to know the nutrient requirements of the particular animal species (e.g. swine, bovine, ovine, or poultry) for a particular physiologic function (e.g. growth, gestation, lactation, or drying).
+- Nutrient requirement of animal is expressed in terms of energy (e.g. TDN, GE, ME, NEl, NEm, and so on), fiber (e.g. NDF, ADF, and CF) fat (e.g. EE), protein (e.g. CP and amino acids), mineral elements, and vitamins.
+- There are some publications for standard animal requirement estimation (e.g. NRC, CVB, or Korean Feeding Standard), however, these standards are not working always correctly because actual requirements are extremely vary with animal’s breed, individual performance which caused by genetic potential, and/or environments. 
+- For these reasons, estimating the accurate nutrient requirement by their geographic region, breed, performance and environment is the best. However, this test is so difficult because it is laborious and need a cost-expensive facility.
+- Therefore, if you are unavailable to test the accurate requirement, then use the already existing standards first and continuously modify for suit your individual conditions.
+
+### 2. Chemical composition of the available feed ingredients  
+- Accurate analysis of chemical composition of the available feed ingredients is very important because the nutrient requirement experiments are estimated using the accurately analyzed feedstuffs.  
+- It is best to obtain the nutrients composition from a laboratory analysis.  
+- However, there are two disadvantages to determine the chemical composition from laboratory: 1) extra cost and 2) the time delayed in getting the results  
+- The nutrient composition of the feed ingredients also can be estimated from published values. If you want to use these values, then you must be recognized that published values generally represent the average from a number of samples.  
+- There are some standard for chemical composition of feed ingredients:  
+1. Nutrient requirement series for swine, poultry, small ruminant, beef or dairy cattle which published at NRC (National research council, US)  
+Available at https://www.nap.edu/  
+2. CVB Feed Table which published at CVB (Netherland)  
+Available at http://www.cvbdiervoeding.nl/  
+3. Feedipedia which published at FAO, INRA, and CIRAD  
+Available at http://feedipedia.org/  
+- Some feed ingredients (e.g. urea, cottonseed, molasses and so on) are limited due to their palatability, cost, or toxicity. Therefore, the maximum or minimum dose (%) should be considered.  
+
+### 3. As-fed basis vs. Dry-matter basis
+- Nutrient requirement and chemical composition are usually expressed as a percent (%) or percent of dry matter (%DM or % of DM).
+- As-fed refers to feed as normally fed to animals (containing water).
+- On a dry-matter (DM) basis, feed contains 0% water.
+- Converting the feed composition data
+%nutrient (DM basis) = %nutrient (as-fed basis)/%DM  ×  100
+%nutrient (as-fed basis) = %nutrient (DM basis) × %DM/100
+If maize silage contained both 30% of DM and 3% of CP (as-fed basis), then it can convert into 10%DM of CP.
+- The percentage of a nutrient on a DM basis is always higher than an as-fed basis.
+
+
+### 4. Calculation example
+- If only two ingredients were used:  
+soybean meal (CP = 50%) and timothy hay (CP = 10%)   
+> X = % of soybean meal in diet   
+> Y = % of timothy hay in diet  
+> X + Y = 100  
+
+If you want to mix the diet that contains 20% of CP, then equation for total CP(%) in diet is that:   
+> 0.50*X + 0.10*Y = 20	[1] target equation  
+> 0.10*X + 0.10*Y = 10	[2] derived from X + Y = 100   
+> 0.40*X = 10			[1] – [2]  
+> X = 10/0.4 = 25  
+> Y = 100 – 25 = 75  
+> 0.50*25 + 0.10*75 = 20	#Check the calculation  
+  
+
+### 5. Mathematical program
+- As above calculation method is very complex when number of nutrient are increased, mathematical program can be used for feed formulation.
+- Least-cost formulation program is used extensively to minimize the cost of the diet.  
+
+### REFERENCE  
+Basic animal nutrition and feeding 5th edition  
+
+***Time and experience will help provide the answers that cannot be covered in this handout.***
+
+***  
+## Chapter 2. Terms of energy
+Energy is defined as the potential to perform work where work is the product of a given force acting through a given distance. However, broad definition is not directly applicable to animals because we usually are more concerned with the utilization of chemical energy (calorie or joule). Energy is very important because it is 1) the most important item in an animal’s diet and 2) nutrient requirement standards are based on energy needs. 
+
+### 1. Units of energy
+Although a joule (J) is a more precise means of expression, a calorie (cal) is generally used as well.
+- 1 cal = 4.184 J
+- Kcal = 1,000 cal		KJ = 1,000 J
+- Mcal = 1,000 Kcal	MJ = 1,000 KJ
+
+### 2. TDN (total digestible nutrients)
+TDN is determined by carrying out a digestion trial and summing the digestible protein (dCP) and carbohydrate (dNFE and dCF) plus 2.25 times digestible ether extract (dEE).
+- Standard method:
+TDN = dCP + dNFE + dCF + dEE*2.25
+- Alternative method:
+TDN (for legume) = 88.875 – (0.812*ADF)
+TDN (for grass) = 98.625 – (1.048*ADF)
+TDN (for maize silage) = 82.12 – (0.577*ADF)
+TDN (for maize grain) = 92.22 – (1.535*ADF)
+TDN (for other grains) = 92.2 – (1.12*ADF)
+
+### 3. GE, DE, ME, and NE
+- GE (gross energy)
+- DE (digestible energy) = GE – energy in feces
+- ME (metabolizable energy) = DE – energy in urine and gases
+- NE (net energy) = ME – energy in heat increment
+- NEm = NE for maintenance
+- NEg = NE for growth
+- NEl = NE for lactation
+- The most accurate way to measure the energy concentration in feed ingredient is animal experiment trial, however, it is too laborious and cost-expensive to do. Therefore, there are some equations for energy calculation using the chemical composition data.
+- GE (kJ/kg DM) = 24.14*CP (g/kg DM) + 36.57*CFAT + 20.92*CF + 16.88*NFE - 0.63*SUG 	[correction for sugars (SUG) only for sugar contents > 80 g/kg DM]  
+  
+ME (kJ/kg DM) = 14.94*dOM + 18.98*EE – 1.478*CP – 0.97*SUG  
+NEm = 1.37*ME – 0.138*ME2 + 0.0105*ME3 – 1.12  
+NEg = 1.42ME – 0.174*ME2 + 0.0122ME3 – 1.65  
+NEl (Mcal/kg) = 0.0245*TDN(%) – 0.12  
+
+***
+### LIST OF ABBREVIATION  
+J = joule  
+Cal = calorie  
+DM = dry matter  
+CP = crude protein  
+EE = ether extract = CFAT = crude fat  
+CF = crude fiber  
+NDF = neutral detergent fiber  
+ADF = acid detergent fiber  
+d = digested  
+TDN = total digestible nutrients  
+GE = gross energy  
+DE = digestible energy  
+ME = metabolizable energy  
+NE = net energy  
+NEm = net energy for maintenance  
+NEg = net energy for growth  
+NEl = net energy for lactation  
+
