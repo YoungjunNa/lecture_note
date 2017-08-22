@@ -1,0 +1,7 @@
+1. ANOVA for Completely Randomized Design with t Treatments and r Replications.  
+
+|    Source of variation    |    df        |    Sum of squares    |    Mean squares      |    F-ratio    |
+|---------------------------|--------------|----------------------|----------------------|---------------|
+|    Treatments             |    t-1       |    SST               |    MST=SST/t-1       |    MST/MSE    |
+|    Experimental Error     |    t(r-1)    |    SSE               |    MSE=SSE/t(r-1)    |               |
+|    Total                  |    rt-1      |    SSTotal           |                      |               |
