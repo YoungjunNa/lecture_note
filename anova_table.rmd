@@ -1,6 +1,8 @@
 ### Analysis of variance table  
 
-1. ANOVA for Completely Randomized Design with t Treatments and r Replications.  
+***  
+
+1. ANOVA for **Completely Randomized Design** with t Treatments and r Replications.  
 
 |    Source of variation    |    df        |    Sum of squares    |    Mean squares      |    F-ratio    |
 |---------------------------|--------------|----------------------|----------------------|---------------|
@@ -9,7 +11,7 @@
 |    Total                  |    rt-1      |    SSTotal           |                      |               |
 
 
-2. ANOVA for a Randomized Complete Block Design with t Treatments and r Blocks.  
+2. ANOVA for a **Randomized Complete Block Design** with t Treatments and r Blocks.  
 
 |    Source of variation    |    df            |    Sum of squares    |    Mean squares          |    F-ratio    |
 |---------------------------|------------------|----------------------|--------------------------|---------------|
@@ -18,7 +20,7 @@
 |    Experimental Error     |    (r-1)(t-1)    |    SSE               |    MSE=SSE/(t-1)(r-1)    |               |
 |    Total                  |    rt-1          |    SSTotal           |                          |               |
 
-3. ANOVA for an r x r Latin Square Design.  
+3. ANOVA for an r x r **Latin Square Design**.  
 
 |    Source of variation    |    df            |    Sum of squares    |    Mean squares          |    F-ratio    |
 |---------------------------|------------------|----------------------|--------------------------|---------------|
