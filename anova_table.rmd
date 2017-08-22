@@ -1,3 +1,5 @@
+### Analysis of variance table  
+
 1. ANOVA for Completely Randomized Design with t Treatments and r Replications.  
 
 |    Source of variation    |    df        |    Sum of squares    |    Mean squares      |    F-ratio    |
@@ -5,3 +7,23 @@
 |    Treatments             |    t-1       |    SST               |    MST=SST/t-1       |    MST/MSE    |
 |    Experimental Error     |    t(r-1)    |    SSE               |    MSE=SSE/t(r-1)    |               |
 |    Total                  |    rt-1      |    SSTotal           |                      |               |
+
+
+2. ANOVA for a Randomized Complete Block Design with t Treatments and r Blocks.  
+
+|    Source of variation    |    df            |    Sum of squares    |    Mean squares          |    F-ratio    |
+|---------------------------|------------------|----------------------|--------------------------|---------------|
+|    Blocks                 |    r-1           |    SSR               |    MSR=SSR/r-1           |               |
+|    Treatments             |    t-1           |    SST               |    MST=SST/t-1           |    MST/MSE    |
+|    Experimental Error     |    (r-1)(t-1)    |    SSE               |    MSE=SSE/(t-1)(r-1)    |               |
+|    Total                  |    rt-1          |    SSTotal           |                          |               |
+
+3. ANOVA for an r x r Latin Square Design.  
+
+|    Source of variation    |    df            |    Sum of squares    |    Mean squares          |    F-ratio    |
+|---------------------------|------------------|----------------------|--------------------------|---------------|
+|    Rows                   |    r-1           |    SSR               |    MSR=SSR/r-1           |               |
+|    Columns                |    r-1           |    SSC               |    MSC=SSC/r-1           |               |
+|    Treatments             |    r-1           |    SST               |    MST=SST/t-1           |    MST/MSE    |
+|    Experimental Error     |    (r-1)(r-2)    |    SSE               |    MSE=SSE/(r-1)(r-2)    |               |
+|    Total                  |    r2-1          |    SSTotal           |                          |               |
